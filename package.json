@@ -1,0 +1,46 @@
+{
+  "name": "@alvarosabu/talk-template",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Slidev theme penguin template.",
+  "author": "Alvaro Saburido <hola@alvarosaburido.dev>",
+  "contributors": [
+    "Alvaro <hola@alvarosaburido.dev>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "slidev",
+    "slidev-theme-penguin",
+    "slidev-theme",
+    "slidev-theme-penguin-template"
+  ],
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@slidev/cli": "51.0.2",
+    "@tresjs/cientos": "^4.1.0",
+    "@tresjs/core": "^4.3.2",
+    "@tresjs/leches": "https://pkg.pr.new/@tresjs/leches@27163c3",
+    "@tresjs/post-processing": "^2.1.0",
+    "@types/three": "^0.172.0",
+    "@vueuse/core": "^12.5.0",
+    "three": "^0.172.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@alvarosabu/eslint-config": "^1.2.0",
+    "@alvarosabu/ui": "3.1.0",
+    "@iconify-json/logos": "^1.2.4",
+    "@iconify-json/simple-icons": "^1.2.21",
+    "eslint": "^9.18.0",
+    "gsap": "^3.12.7",
+    "sass": "^1.83.4",
+    "slidev-theme-penguin": "^2.3.1",
+    "sponsorkit": "^16.3.0"
+  }
+}
